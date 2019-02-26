@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UpdatePasienActivity"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edtNamaPasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Name"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/edtNamaPenyakit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Disease"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:textColorHighlight="@color/colorAccent"/>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="UPDATE PATIENT INFO"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+
+</LinearLayout>
